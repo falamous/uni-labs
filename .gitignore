@@ -30,3 +30,8 @@
 *.exe
 *.out
 *.app
+*.elf
+
+# Linter cache
+.ccls-cache
+.ccl
