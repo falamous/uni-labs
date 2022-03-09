@@ -1,0 +1,17 @@
+movi r0, 57827924
+movi r1, 1038849
+
+gcd:
+    jz fin, r1
+
+    mod r0, r1
+    mov r2, r0
+    mov r0, r1
+    mov r1, r2
+
+    jmp gcd
+    exit
+
+fin:
+print r0
+exit

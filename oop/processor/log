@@ -1,0 +1,61 @@
+movi r0, 1337
+movi r1, 313
+jz 40, r1
+mod r0, r1
+print r0
+85print r1
+313mov r2, r0
+mov r0, r1
+mov r1, r2
+jmp 12
+jz 40, r1
+mod r0, r1
+print r0
+58print r1
+85mov r2, r0
+mov r0, r1
+mov r1, r2
+jmp 12
+jz 40, r1
+mod r0, r1
+print r0
+27print r1
+58mov r2, r0
+mov r0, r1
+mov r1, r2
+jmp 12
+jz 40, r1
+mod r0, r1
+print r0
+4print r1
+27mov r2, r0
+mov r0, r1
+mov r1, r2
+jmp 12
+jz 40, r1
+mod r0, r1
+print r0
+3print r1
+4mov r2, r0
+mov r0, r1
+mov r1, r2
+jmp 12
+jz 40, r1
+mod r0, r1
+print r0
+1print r1
+3mov r2, r0
+mov r0, r1
+mov r1, r2
+jmp 12
+jz 40, r1
+mod r0, r1
+print r0
+0print r1
+1mov r2, r0
+mov r0, r1
+mov r1, r2
+jmp 12
+jz 40, r1
+print r0
+1exit
